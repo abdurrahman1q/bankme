@@ -1,5 +1,5 @@
 <?php
-$con = new mysqli('localhost', 'root', " ", 'storedata');
+$con = new mysqli('localhost', 'root', " ", 'practice');
 if (!$con) {
     mysqli_error($con);
 }

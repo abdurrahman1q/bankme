@@ -58,7 +58,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
         </tbody> -->
     </table>
     <?php
-    $con = new mysqli('localhost', 'root', " ", 'storedata');
+    $con = new mysqli('localhost', 'root', " ", 'practice');
     if (!$con) {
         mysqli_error($con);
     }
@@ -80,10 +80,10 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
             $name = $row['name'];
         }
     }
-    $index += 1;
+    // $index += 1;
     ?>
     <tr>
-        <td scope="row"> <?php echo  $index; ?></td>
+        <td scope="row"><?php echo  ++$index; ?> <?php echo  $index; ?> </td>
         <td><?php echo  $account; ?></td>
         <td><?php echo  $email; ?></td>
         <td><?php echo  $name; ?></td>
@@ -91,7 +91,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
 
 
     </tr>
-    ;
+
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 

@@ -28,11 +28,11 @@
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <a class="nav-link active" id="visa-tab" data-toggle="tab" href="#visa" role="tab" aria-controls="visa" aria-selected="true">
-                                    <img src="https://i.imgur.com/sB4jftM.png" width="80"> </a>
+                                    <img src="./VISA.png" width="80"> </a>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <a class="nav-link" id="paypal-tab" data-toggle="tab" href="#paypal" role="tab" aria-controls="paypal" aria-selected="false">
-                                    <img src="https://i.imgur.com/yK7EDD1.png" width="80"> </a>
+                                    <img src="./paypal.jpg" width="80"> </a>
                             </li>
                         </ul>
                         <div class="tab-content" id="myTabContent">
